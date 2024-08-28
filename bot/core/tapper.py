@@ -143,7 +143,7 @@ class Tapper:
                     await asyncio.sleep(fls + 3)
 
             if settings.REF_ID == '':
-                self.start_param = 'eVMDZF6Fxdb8eNnjocoOP'
+                self.start_param = 'Tsf15Tth62y2OBa0r664C'
             else:
                 self.start_param = settings.REF_ID
             InputBotApp = types.InputBotAppShortName(bot_id=peer, short_name="join")
